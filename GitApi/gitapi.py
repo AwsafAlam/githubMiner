@@ -3,10 +3,10 @@
 import urllib.parse
 import requests
 
-api = 'https://api.github.com/repos/django/django'
+api = 'https://api.github.com/repos/MyCollab/mycollab'
+# https://api.github.com/repos/django/django/languages
 
 # param  = 'lhr'
-
 # url  = api + urllib.parse.urlencode({'address':param})
 
 json_data = requests.get(api).json()
