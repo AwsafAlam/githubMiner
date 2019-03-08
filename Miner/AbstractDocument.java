@@ -18,9 +18,9 @@
 
 
 
-  <link crossorigin="anonymous" media="all" integrity="sha512-RPWwIpqyjxv5EpuWKUKyeZeWz9QEzIbAWTiYOuxGieUq7+AMiZbsLeQMfEdyEIUoNjLagHK0BEm92BmXnvaH4Q==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-40c1c9d8ff06284fb441108e6559f019.css" />
-  <link crossorigin="anonymous" media="all" integrity="sha512-SUcCfd/JEajhY9PBJRkLqJayKdKJo8njHXOMeNGmff0lsDCXCPwTSiR7u7F/szVtOpfkCQ8hfEvPy6DTeEpPKw==" rel="stylesheet" href="https://github.githubassets.com/assets/site-ee3375059d76a2986813c5b7bd605ab3.css" />
-    <link crossorigin="anonymous" media="all" integrity="sha512-3CnDMoFJPvbM39ryV5wc51yRo/6j6eQPt5SOlYaoBZhR9rVL/UZH3ME+wt72nsTlNFaSQ3nXT/0F4sxE1zbA6g==" rel="stylesheet" href="https://github.githubassets.com/assets/github-38162889e1878fa3b887aa360e70ab6c.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-R+Vpkv86him5JZcqAEuQRUGOKqH897w6q7uJ1P65tQR+9Hxar5vU4wpEd4uvcXT8ooRZ7zsNftrjnCemEt2u2Q==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-f4557b27209914aa4705202b188165b5.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-81i8PelFZd5h4xzfU5vrDBzVFYR4fGfupzRgrk8t+4DObdA/eLbMFb+Buu9dDqWhoh3tT5sCZqeu/DVmQA2Bww==" rel="stylesheet" href="https://github.githubassets.com/assets/site-494d5fcdf21623b26b4c311f4d2331e8.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-2NgDCU40htWjl2BQJcPMK+yfLjQpy9RVDqFIAuKKu6Hhjbf9yynqs9Z3ghZqLoesxs0/k6veHaKQ/gaVx3zDKA==" rel="stylesheet" href="https://github.githubassets.com/assets/github-61558f0e67a914c311cf66c3443ac94c.css" />
     
     
     
@@ -41,7 +41,7 @@
   
   <meta name="pjax-timeout" content="1000">
   
-  <meta name="request-id" content="E40A:0847:26CC169:3B96DEB:5C730C64" data-pjax-transient>
+  <meta name="request-id" content="9FCC:497B:2CBBF5:3E22A1:5C810B08" data-pjax-transient>
 
 
   
@@ -52,7 +52,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E40A:0847:26CC169:3B96DEB:5C730C64" /><meta name="octolytics-dimension-region_edge" content="sea" /><meta name="octolytics-dimension-region_render" content="iad" />
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="9FCC:497B:2CBBF5:3E22A1:5C810B08" /><meta name="octolytics-dimension-region_edge" content="ap-southeast-1" /><meta name="octolytics-dimension-region_render" content="iad" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -70,13 +70,13 @@
     <meta name="user-login" content="">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="ZTY1MTgwOTc2ODMxOTkxNzUzZmQxYzY1YWI5NGY4YTEyNWYxNWE2NmI4OWFiNWYwNDI1ZjYyNTQzZWU0NDRhOXx7InJlbW90ZV9hZGRyZXNzIjoiNDUuMTI3LjI0OS41MiIsInJlcXVlc3RfaWQiOiJFNDBBOjA4NDc6MjZDQzE2OTozQjk2REVCOjVDNzMwQzY0IiwidGltZXN0YW1wIjoxNTUxMDQzNjg1LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+    <meta name="js-proxy-site-detection-payload" content="Y2IzOTM2MzAzNzJlMjFlOGE0ZDBkNmRmYmExOGE1NWQ1OTMyNDY4MmNkZDFlNDgwNTRkYjY2MTM3NzJhMWUxMHx7InJlbW90ZV9hZGRyZXNzIjoiNDUuMTI3LjI0OS4yMTMiLCJyZXF1ZXN0X2lkIjoiOUZDQzo0OTdCOjJDQkJGNTozRTIyQTE6NUM4MTBCMDgiLCJ0aW1lc3RhbXAiOjE1NTE5NjA4NDEsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,MARKETPLACE_SOCIAL_PROOF,MARKETPLACE_PLAN_RESTRICTION_EDITOR,MARKETPLACE_BROWSING_V2">
 
-  <meta name="html-safe-nonce" content="857c6ba949fcc04f7418ec4b3942df0a92222ebb">
+  <meta name="html-safe-nonce" content="d16d0358130091330a5a8a58c4bdbfc953ec4b47">
 
-  <meta http-equiv="x-pjax-version" content="fe602614af4c1a740e12e3bc8fce8de2">
+  <meta http-equiv="x-pjax-version" content="c5020a80e1ca2f53f72cc37ba94d1a52">
   
 
       <link href="https://github.com/iluwatar/java-design-patterns/commits/master.atom" rel="alternate" title="Recent Commits to java-design-patterns:master" type="application/atom+xml">
@@ -157,7 +157,7 @@
                     </ul>
 
                     <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
-                      <li class="edge-item-fix"><a href="/case-studies" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Case studies">Case Studies <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="/case-studies" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Customer stories">Customer stories <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
                       <li class="edge-item-fix"><a href="/security" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Security">Security <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
                     </ul>
                   </div>
@@ -184,7 +184,7 @@
                     <h4 class="text-gray-light text-normal text-mono f5 mb-2  border-top pt-3">Learn &amp; contribute</h4>
                     <ul class="list-style-none mb-3">
                       <li class="edge-item-fix"><a href="/topics" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Topics">Topics</a></li>
-                      <li class="edge-item-fix"><a href="/collections" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Collections">Collections</a></li>
+                        <li class="edge-item-fix"><a href="/collections" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Collections">Collections</a></li>
                       <li class="edge-item-fix"><a href="/trending" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Trending">Trending</a></li>
                       <li class="edge-item-fix"><a href="https://lab.github.com/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Learning lab">Learning Lab</a></li>
                       <li class="edge-item-fix"><a href="https://opensource.guide" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Open source guides">Open source guides</a></li>
@@ -192,7 +192,7 @@
 
                     <h4 class="text-gray-light text-normal text-mono f5 mb-2  border-top pt-3">Connect with others</h4>
                     <ul class="list-style-none mb-0">
-                      <li class="edge-item-fix"><a href="/events" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Events">Events</a></li>
+                      <li class="edge-item-fix"><a href="https://github.com/events" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Events">Events</a></li>
                       <li class="edge-item-fix"><a href="https://github.community" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Community forum">Community forum</a></li>
                       <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Education">GitHub Education</a></li>
                     </ul>
@@ -241,7 +241,7 @@
   aria-expanded="false"
 >
   <div class="position-relative">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scope-type="Repository" data-scope-id="22790488" data-scoped-search-url="/iluwatar/java-design-patterns/search" data-unscoped-search-url="/search" action="/iluwatar/java-design-patterns/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="22790488" data-scoped-search-url="/iluwatar/java-design-patterns/search" data-unscoped-search-url="/search" action="/iluwatar/java-design-patterns/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
       <label class="form-control header-search-wrapper header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
         <input type="text"
           class="form-control header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
@@ -255,7 +255,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=iJSUFx6xCF9sMtoJXx3O6/mWRl4KeXCruOJojg0B8EafS9uH27n4dxJITWvb3E9rCuTRFSHpMBUP4n43OfObGQ=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=3hxklOl89yqdYDh16hPYVu6HX7e/RQA3JZoGgXYOxXSPS45OtM0ox4Bz9yDm/zwmBzdXLOtbPeGLmJrZwzBSqA=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -397,9 +397,9 @@
 
 
 
-  <div role="main" class="application-main " data-commit-hovercards-enabled>
+  <div class="application-main " data-commit-hovercards-enabled>
         <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
-    <div id="js-repo-pjax-container" data-pjax-container >
+    <main id="js-repo-pjax-container" data-pjax-container >
       
 
 
@@ -414,6 +414,8 @@
 
       <ul class="pagehead-actions">
 
+
+
   <li>
       <a href="/login?return_to=%2Filuwatar%2Fjava-design-patterns"
     class="btn btn-sm btn-with-count tooltipped tooltipped-s"
@@ -422,8 +424,8 @@
     Watch
   </a>
   <a class="social-count" href="/iluwatar/java-design-patterns/watchers"
-     aria-label="3862 users are watching this repository">
-    3,862
+     aria-label="3864 users are watching this repository">
+    3,864
   </a>
 
   </li>
@@ -437,8 +439,8 @@
     </a>
 
     <a class="social-count js-social-count" href="/iluwatar/java-design-patterns/stargazers"
-      aria-label="44792 users starred this repository">
-      44,792
+      aria-label="45121 users starred this repository">
+      45,121
     </a>
 
   </li>
@@ -452,8 +454,8 @@
       </a>
 
     <a href="/iluwatar/java-design-patterns/network/members" class="social-count"
-       aria-label="14516 users forked this repository">
-      14,516
+       aria-label="14618 users forked this repository">
+      14,618
     </a>
   </li>
 </ul>
@@ -485,7 +487,7 @@
       <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /iluwatar/java-design-patterns/issues" href="/iluwatar/java-design-patterns/issues">
         <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
         <span itemprop="name">Issues</span>
-        <span class="Counter">177</span>
+        <span class="Counter">176</span>
         <meta itemprop="position" content="2">
 </a>    </span>
 
@@ -529,7 +531,7 @@
         <div class="signup-prompt-bg rounded-1">
       <div class="signup-prompt p-4 text-center mb-4 rounded-1">
         <div class="position-relative">
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="aA2nxBdSSunLUwFDr5EQyIrr1b6UGrD3ECAyaGhHpjxqEbdQg+sNOEWcFhhSo2/Z8nix/Kzgi0pDk+bLcIsmvg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="KmRwhQvjuYhNEg9Z6B213HpPi26oBqcZSeG/Su1vl2djUV5QMdUv3w7R1bg09xI161PPQafSi6o1AcIel25r/g==" />
             <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
               Dismiss
             </button>
@@ -576,73 +578,31 @@
     </div>
 
 
-    
-  <div class="commit-tease">
-      <span class="float-right">
-        <a class="commit-tease-sha" href="/iluwatar/java-design-patterns/commit/faa29f8025f6fb90472dacb6e8ad8569605f8d61" data-pjax>
-          faa29f8
-        </a>
-        <relative-time datetime="2016-11-27T12:34:20Z">Nov 27, 2016</relative-time>
-      </span>
+    <include-fragment src="/iluwatar/java-design-patterns/contributors/master/abstract-document/src/main/java/com/iluwatar/abstractdocument/AbstractDocument.java" class="commit-tease commit-loader">
       <div>
-        <a rel="author" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=582346" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/iluwatar"><img class="avatar" src="https://avatars0.githubusercontent.com/u/582346?s=40&amp;v=4" width="20" height="20" alt="@iluwatar" /></a>
-        <a class="user-mention" rel="author" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=582346" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/iluwatar">iluwatar</a>
-          <a data-pjax="true" title="Update license headers" class="message" href="/iluwatar/java-design-patterns/commit/faa29f8025f6fb90472dacb6e8ad8569605f8d61">Update license headers</a>
+        Fetching contributors&hellip;
       </div>
 
-    <div class="commit-tease-contributors">
-      
-<details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-2" id="blob_contributors_box">
-  <summary
-      class="btn-link"
-      aria-haspopup="dialog"
-      
-      
-      >
-    
-    <span><strong>2</strong> contributors</span>
-  </summary>
-  <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast " aria-label="Users who have contributed to this file">
-    <div class="Box-header">
-      <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
-        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-      </button>
-      <h3 class="Box-title">Users who have contributed to this file</h3>
-    </div>
-    
-        <ul class="list-style-none overflow-auto">
-            <li class="Box-row">
-              <a class="link-gray-dark no-underline" href="/qza">
-                <img class="avatar mr-2" alt="" src="https://avatars0.githubusercontent.com/u/233149?s=40&amp;v=4" width="20" height="20" />
-                qza
-</a>            </li>
-            <li class="Box-row">
-              <a class="link-gray-dark no-underline" href="/iluwatar">
-                <img class="avatar mr-2" alt="" src="https://avatars0.githubusercontent.com/u/582346?s=40&amp;v=4" width="20" height="20" />
-                iluwatar
-</a>            </li>
-        </ul>
-
-  </details-dialog>
-</details>
-          <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=233149" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/iluwatar/java-design-patterns/commits/master/abstract-document/src/main/java/com/iluwatar/abstractdocument/AbstractDocument.java?author=qza">
-      <img class="avatar" src="https://avatars0.githubusercontent.com/u/233149?s=40&amp;v=4" width="20" height="20" alt="@qza" /> 
-</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=582346" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/iluwatar/java-design-patterns/commits/master/abstract-document/src/main/java/com/iluwatar/abstractdocument/AbstractDocument.java?author=iluwatar">
-      <img class="avatar" src="https://avatars0.githubusercontent.com/u/582346?s=40&amp;v=4" width="20" height="20" alt="@iluwatar" /> 
-</a>
-
-    </div>
-  </div>
-
+      <div class="commit-tease-contributors">
+          <img alt="" class="loader-loading float-left" src="https://github.githubassets.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+        <span class="loader-error">Cannot retrieve contributors at this time</span>
+      </div>
+</include-fragment>
 
 
 
 
     <div class="file ">
       
-<div class="file-header">
+<div class="file-header ">
 
-  <div class="file-actions">
+  <div class="file-info float-left ">
+      73 lines (63 sloc)
+      <span class="file-info-divider"></span>
+    2.53 KB
+  </div>
+
+  <div class="file-actions d-flex ">
 
     <div class="BtnGroup">
       <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/iluwatar/java-design-patterns/raw/master/abstract-document/src/main/java/com/iluwatar/abstractdocument/AbstractDocument.java">Raw</a>
@@ -651,21 +611,17 @@
     </div>
 
 
+    <div>
 
-        <button type="button" class="btn-octicon disabled tooltipped tooltipped-nw"
-          aria-label="You must be signed in to make or propose changes">
-          <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
-        </button>
-        <button type="button" class="btn-octicon btn-octicon-danger disabled tooltipped tooltipped-nw"
-          aria-label="You must be signed in to make or propose changes">
-          <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
-        </button>
-  </div>
-
-  <div class="file-info">
-      73 lines (63 sloc)
-      <span class="file-info-divider"></span>
-    2.53 KB
+          <button type="button" class="btn-octicon disabled tooltipped tooltipped-nw"
+            aria-label="You must be signed in to make or propose changes">
+            <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
+          </button>
+          <button type="button" class="btn-octicon btn-octicon-danger disabled tooltipped tooltipped-nw"
+            aria-label="You must be signed in to make or propose changes">
+            <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
+          </button>
+    </div>
   </div>
 </div>
 
@@ -1008,17 +964,17 @@
   <div class="modal-backdrop js-touch-events"></div>
 </div>
 
-    </div>
+    </main>
   </div>
   
 
   </div>
 
         
-<div class="footer container-lg px-3" role="contentinfo">
+<div class="footer container-lg width-full px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2019 <span title="0.20672s from unicorn-d489dc546-cc77d">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2019 <span title="0.26816s from unicorn-857dd74d98-qgwqz">GitHub</span>, Inc.</li>
         <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
@@ -1026,7 +982,7 @@
         <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
     </ul>
 
-    <a aria-label="Homepage" title="GitHub" class="footer-octicon mr-lg-4" href="https://github.com">
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon mx-lg-4" href="https://github.com">
       <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
 </a>
    <ul class="list-style-none d-flex flex-wrap ">
@@ -1055,10 +1011,10 @@
   </div>
 
 
-    <script crossorigin="anonymous" integrity="sha512-47ZXWJASen/yLysPiEpAb7/WvHBIHIRKo+7W5g0YYFiInTWqpjYBHTpeHut0QWEf51gExNhSEy55XQmxrZ+0xA==" type="application/javascript" src="https://github.githubassets.com/assets/compat-742699bf681282d2e3cf809d2b9de73a.js"></script>
-    <script crossorigin="anonymous" integrity="sha512-N6BPdqxnrYL4kxWa5gDIlmhui/SEMiHoobwzTpVOWheR111Zxv5GOnCtGpt5qhE5rIpi9RHMeyngI5w6WhGfnw==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-0339542411b5666802ea364ae561d67e.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-YO4Xdg5PJ8V3WsQjmZQZPkNwtVLd6anicd3HzJicDXWlXgi629sbZLgmltqHKGuxfDjONfyBtkR5BigP6pasJw==" type="application/javascript" src="https://github.githubassets.com/assets/compat-bootstrap-f561736257691187.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-21WhDYYHohhprazXnjyCZFwOtdMy+VL8+HyopWKPORgdR8Vx8qm9ONmQHZUVmMO+2DyjhIyWxelZaZ+rSnYSpA==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-cf847e83b438f341.js"></script>
     
-    <script crossorigin="anonymous" async="async" integrity="sha512-D/8iR8ROD3vVOmwLSVsS1j1knDeAOuW9NLNRFb3Pyd68G/gC1b3xRH/krz0K2nuECEZRjVsUAU5caoJKAwoLwA==" type="application/javascript" src="https://github.githubassets.com/assets/github-27e2e2875f3fc6cfce6518e479adf7b8.js"></script>
+    <script crossorigin="anonymous" async="async" integrity="sha512-0JCjLryRzn0U5+bIvnx5/jitxrQstfZcvbaNC1buYnaYne+2s9irb/NhPhoiubR/rpu8aEhIyLshwtpT7/cdbQ==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-599fa6bd78e32574.js"></script>
     
     
     
@@ -1082,10 +1038,6 @@
   <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
   <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
   </div>
-</div>
-
-<div id="hovercard-aria-description" class="sr-only">
-  Press h to open a hovercard with more details.
 </div>
 
   <div aria-live="polite" class="js-global-screen-reader-notice sr-only"></div>
