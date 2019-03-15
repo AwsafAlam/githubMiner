@@ -2,6 +2,14 @@ import os
 from git import Repo
 import shutil
 import tempfile
+import urllib.parse
+import requests
+
+# api = 'https://api.github.com/search/repositories?q='
+api = 'https://api.github.com/search/repositories?q=java+language:java&sort=stars&order=desc'
+
+# param  = 'java'
+# url  = api + urllib.parse.urlencode({'address':param})
 
 
 '''
@@ -24,18 +32,32 @@ def getListOfFiles(dirName):
                 
     return allFiles
 
+json_data = requests.get(api).json()
 
-# Create temporary dir
-t = tempfile.mkdtemp()
-# Clone into temporary dir
-Repo.clone_from('https://github.com/AwsafAlam/Datastructures-Algorithms.git', t, branch='master', depth=1)
-# Copy desired file from temporary dir
-# print(os.path.dirname(t))
-# print(os.listdir(t))
+print('Response length : ', (json_data['total_count']) )
+print(len(json_data['items']))
+print(json_data['items'][0]['full_name'])
 
-print(getListOfFiles(t))
+i = 0
+for item in json_data['items']:
+    url = item['html_url']
+    print(url)
 
-shutil.move(os.path.join(t, 'DataStructures/'), '.')
-# shutil.copytree(os.path.join(t, ''), '~/Desktop/gitCrawler/', symlinks=False, ignore=None, ignore_dangling_symlinks=False)
-# Remove temporary dir
-shutil.rmtree(t)
+    # Create temporary dir
+    t = tempfile.mkdtemp()
+    # Clone into temporary dir
+    Repo.clone_from( url+'.git' , t, branch='master', depth=1)
+    # Copy desired file from temporary dir
+    # print(os.path.dirname(t))
+    # print(os.listdir(t))
+
+    for item in getListOfFiles(t):
+        print(item," -- \n")
+
+    # shutil.move(os.path.join(t, 'layers'+'/'), '.')
+    shutil.copy(t, '.')
+
+    # shutil.copytree(os.path.join(t, ''), '~/Desktop/gitCrawler/', symlinks=False, ignore=None, ignore_dangling_symlinks=False)
+    # Remove temporary dir
+    shutil.rmtree(t)
+    i = i+1
