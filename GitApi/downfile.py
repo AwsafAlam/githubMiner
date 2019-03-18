@@ -55,9 +55,9 @@ for item in json_data['items']:
         print(item," -- \n")
 
     # shutil.move(os.path.join(t, 'layers'+'/'), '.')
-    shutil.copy(t, '.')
+    shutil.move(t, '.')
 
     # shutil.copytree(os.path.join(t, ''), '~/Desktop/gitCrawler/', symlinks=False, ignore=None, ignore_dangling_symlinks=False)
     # Remove temporary dir
-    shutil.rmtree(t)
+    # shutil.rmtree(t)
     i = i+1
