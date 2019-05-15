@@ -11,7 +11,7 @@ api = 'https://api.github.com/repos/MyCollab/mycollab'
 
 json_data = requests.get(api).json()
 
-print(json_data['name'])
+print(json_data)
 
 '''
 ## JSON dump
