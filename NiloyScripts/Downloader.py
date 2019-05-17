@@ -14,19 +14,29 @@ import simplejson
 import csv
 import math
 
-OUTPUT_FOLDER = "G:/MinedZips/" #Folder where ZIP files will be stored
+
+lang = sys.argv[1]
+OUTPUT_FOLDER = "G:/MinedZips/" + lang + "/" #Folder where ZIP files will be stored
 
 query_limit = 5
 
+f = open("Token.txt", "r")
+token = f.read()
+f.close()
+print(token)
+
 headers = {
-    'Authorization': 'token 50ddaa3c2cbc3925bad25b7283551c1b62ab99d5',
+    'Authorization': 'token ' + token,
 }
 
 response = requests.get('https://api.github.com/', headers=headers)
 
 print(response)
 
-lang = sys.argv[1]
+
+
+if not os.path.exists(OUTPUT_FOLDER):
+    os.mkdir(OUTPUT_FOLDER)
 
 mydb = mysql.connector.connect(
   host="localhost",
@@ -38,14 +48,14 @@ mydb = mysql.connector.connect(
 mycursor = mydb.cursor()
 
 while 1 > 0:
-    sql = "select * from repos WHERE language = %s AND downloaded = 0 LIMIT 5"
-    val = (lang, )
+    sql = "select * from repos WHERE language = %s AND downloaded = 0 ORDER BY RAND() LIMIT %s"
+    val = (lang, query_limit, )
 
     mycursor.execute(sql, val)
     myResult = mycursor.fetchall()
 
     if len(myResult) < 5:
-        print("Not enough link to download")
+        print("Not enough links to download")
         break
 
     #============================================== download
@@ -58,6 +68,7 @@ while 1 > 0:
         item = requests.get(entry[1], headers=headers).json()
 
         if len(item) < 6:   #for invalid requests
+            print("not found")
             continue
 
         # Obtain user and repository names

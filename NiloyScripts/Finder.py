@@ -25,8 +25,14 @@ print("Language = " + lang)
 #maximum in one page = 30
 #maximum pages = 34
 
+
+f = open("Token.txt", "r")
+token = f.read()
+f.close()
+print(token)
+
 headers = {
-    'Authorization': 'token 50ddaa3c2cbc3925bad25b7283551c1b62ab99d5',
+    'Authorization': 'token ' + token,
 }
 
 response = requests.get('https://api.github.com/', headers=headers)
