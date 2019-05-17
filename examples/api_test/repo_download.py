@@ -2,7 +2,7 @@ from github import Github
 import urllib.request
 import os
 
-g = Github("AwsafAlam", "P1KT213z") #username, password
+g = Github("AwsafAlam", "") #username, password
 
 #for a specific repo
 base_url = "https://raw.githubusercontent.com/"
@@ -14,7 +14,7 @@ parent_dir = "./dl/" + repo_url
 print(parent_dir)
 os.makedirs(parent_dir)
 contents = repo.get_contents("")
-while len(contents) > 1:
+while len(contents) >= 1:
     file_content = contents.pop(0)
     if file_content.type == "dir":
         #os.makedirs(parent_dir + file_content.path.replace("/", "\\") )
