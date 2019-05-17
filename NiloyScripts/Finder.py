@@ -1,5 +1,4 @@
 import sys  #for command line argument
-
 import os
 import shutil
 import tempfile
@@ -9,7 +8,7 @@ import time
 import mysql.connector
 import requests
 
-time_delay = 0
+sleep_time = 0
 
 start_page = 1
 end_page = 35
@@ -25,6 +24,15 @@ print("Language = " + lang)
 #maximum search result = 1000
 #maximum in one page = 30
 #maximum pages = 34
+
+headers = {
+    'Authorization': 'token 50ddaa3c2cbc3925bad25b7283551c1b62ab99d5',
+}
+
+response = requests.get('https://api.github.com/', headers=headers)
+
+print(response)
+
 
 mydb = mysql.connector.connect(
   host="localhost",
@@ -48,11 +56,11 @@ def getRepos(urlAddr):
         pageUrl = urlAddr + '&page=' + str(pageNo)
         print("pageUrl: " + pageUrl)
 
-        json_data = requests.get(pageUrl).json()
+        json_data = requests.get(pageUrl, headers=headers).json()
 
         # if pageNo % 3 == 0:   #doesn't work
 
-        time.sleep(time_delay)  # dont overload the git api
+        time.sleep(sleep_time)  # dont overload the git api
 
         in_db = 0;
 
@@ -90,6 +98,8 @@ def getRepos(urlAddr):
 
             if in_db > len(json_data['items'])/2:
                 break
+
+
 #============================================================== function end
 
 
@@ -99,6 +109,8 @@ while 1 > 0:
     day = randint(1, 30)
 
     if month == 2 and day > 28:
+        continue
+    if year == 2019 and month > 4:
         continue
 
     if month < 10:
