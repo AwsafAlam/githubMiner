@@ -2,12 +2,12 @@ from github import Github
 import urllib.request
 import os
 
-g = Github("AwsafAlam", "******") #username, password
+g = Github("AwsafAlam", "P1KT213z") #username, password
 
 #for a specific repo
 base_url = "https://raw.githubusercontent.com/"
-repo_url = "skylot/jadx/master/"
-repo = g.get_repo("skylot/jadx")
+repo_url = "josephmisiti/awesome-machine-learning/master/"
+repo = g.get_repo("josephmisiti/awesome-machine-learning")
 #parent_dir = "./dl/" + repo_url.replace("/", "\\")
 parent_dir = "./dl/" + repo_url
 
@@ -22,10 +22,10 @@ while len(contents) > 1:
         contents.extend(repo.get_contents(file_content.path))
     else:
         path = file_content.path
-        if path.find(".java", -5) != -1: # .cpp for cpp file
-		print(base_url+repo_url+path, parent_dir + path)            
-		urllib.request.urlretrieve(base_url+repo_url+path, parent_dir + path )
-	    #urllib.request.urlretrieve(base_url+repo_url+path, parent_dir + path.replace("/", "\\") )
+        if path.find(".py", -3) != -1: # .cpp for cpp file
+            print(base_url+repo_url+path, parent_dir + path)            
+            urllib.request.urlretrieve(base_url+repo_url+path, parent_dir + path )
+            #urllib.request.urlretrieve(base_url+repo_url+path, parent_dir + path.replace("/", "\\") )
 
 
 #urllib.request.urlretrieve('https://raw.githubusercontent.com/PyGithub/PyGithub/master/tests/ReplayData/AuthenticatedUser.testAttributes.txt',"D:\\ok.txt")
