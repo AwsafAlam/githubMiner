@@ -14,7 +14,7 @@ import simplejson
 import csv
 import math
 import config
-import test
+import parser
 
 query_limit = 5
 
@@ -76,7 +76,7 @@ def downloader():
 
             # wget.download(fileToDownload, OUTPUT_FOLDER + fileName)
 
-            test.parse(item['full_name'])
+            parser.parse(item['full_name'])
             print(item['full_name'])
 
             with open(config.output_dir + jsonName, "w") as jsonFile:
