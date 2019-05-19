@@ -6,13 +6,13 @@ token = ""
 g = Github(token)
 
 #specify file types you want to download
-required_file_types = [".c", ".h"]
+required_file_types = [".java"]
 
 #specify the language you want to search github for
-lang = "c"
+lang = "java"
 
 #specify directory to store the unzipped projects
-output_dir = "D:/MinedCodes/" + lang + "/" 
+output_dir = "D:/Thesis/Mined" 
 
 
 #specify database credentials
